@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // This defines the root directory for absolute imports
     "paths": {
-      "@/*": ["./*"]
+      "@components/*": ["components/*"], // @components points to the components folder
+      "@utils/*": ["utils/*"], // @utils points to the utils folder
+      "@styles/*": ["styles/*"] // @styles points to the styles folder
     }
   }
 }
