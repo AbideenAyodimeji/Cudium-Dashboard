@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import '@styles/NotFoundPage.module.css'
+import Image from 'next/image'
 
 export default function NotFoundPage() {
   return (
