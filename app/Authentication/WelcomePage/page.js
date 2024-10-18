@@ -78,7 +78,9 @@ export default function WelcomePage() {
       <main className={styles.main}>
         <div className={`${styles.flexColumn} ${styles.alignCenter}`}>
           <h3 className={styles.mainHeading}>Welcome back!</h3>
-          <p className={styles.mainSubHeading}>Let's build something great</p>
+          <p className={styles.mainSubHeading}>
+            Let&apos;s build something great
+          </p>
         </div>
 
         <Formik
