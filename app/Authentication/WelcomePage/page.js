@@ -28,15 +28,15 @@ export default function WelcomePage() {
   }
 
   // error message icon
-  const RequiredIcon = [
+  const RequiredIcon = (
     <Image
       src='/Images/requiredIcon.svg'
       alt='Cudium Logo'
       width={15}
       height={15}
       className={styles.requiredIcon}
-    />,
-  ]
+    />
+  )
 
   return (
     <section className={styles.section}>
